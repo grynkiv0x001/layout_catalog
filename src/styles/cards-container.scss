@@ -1,10 +1,11 @@
 .cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   max-width: 1024px;
+
   margin: 0 auto;
   padding: 0 40px;
+  justify-content: center;
 
   &__card {
     margin-top: 50px;
