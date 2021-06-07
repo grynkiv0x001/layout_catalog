@@ -6,13 +6,13 @@
   &__product {
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 13px;
     padding-bottom: 40px;
   }
 
   &__product-image {
     border: 3px solid transparent;
-    height: 141px;
+    height: 140px;
     width: 168px;
     padding: 12px 12px 0;
     transition: transform 400ms ease-in-out;
